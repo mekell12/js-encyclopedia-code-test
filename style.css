@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 200;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+ol.nb {
+  list-style-type: lower-alpha;
+}
+span.ref {
+  vertical-align: super;
+  font-size: smaller;
+}
+span.ref::before { content: "["; }
+span.ref::after { content: "]"; }
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
